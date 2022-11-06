@@ -128,7 +128,6 @@ body{
     justify-content: center;
     margin-top: 30px;
     left: 5px;
-    margin-bottom: 20px;
 }
 
 .conteudo3 .foto3 img{
@@ -142,19 +141,21 @@ body{
     padding: 15px;
     font-family: lato;
     text-align: justify;
+    
     margin-left: 10px;
 }
 
-/* .baixar{
+.baixar{
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
     padding: 10px;
     margin-top: 10px;
-} */
+    margin-bottom: 20px;
+}
 
-/* 
+
 .baixar img{ 
     padding: 5px;
     width: 50px;
@@ -174,7 +175,7 @@ body{
     text-decoration: none;
     color: #000;
     font-size: large;
-} */
+}
 
 .footer a{
     text-decoration: none;
@@ -189,7 +190,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 50px;
+    margin-top: 20px;
 }
 
 @media (max-width:890px){
