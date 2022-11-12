@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear{
+    height: 150px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    background-color: #99DDF7;
+}
+.container{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container .fixo{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #99DDF7;
+    padding: 10px;
+    border-bottom: 1px solid #585858;
+}
+
+.logo a{
+    font-family: 'pacifico';
+    font-size: 36px;
+    color: #fff;
+    text-decoration: none;
+}
+.header .menu{
+    padding: 10px;
+}
+
+.header .menu ul li{
+    display: inline;
+    padding: 10px;
+}
+
+.header .menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'lato';
+    font-size: 15px;
+}
+
+.header .menu ul li a:hover{
+    color: #585858;
+    text-decoration: none;
+}
+
+/* Fim header */
+
+.conteudo1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    left: 5px;
+}
+
+.conteudo1 .foto1 img{
+    width: 400px;
+    height: 300px;
+}
+
+.conteudo1 .texto1 h3{
+    margin-bottom: 5px;
+}
+
+.conteudo2 .texto2 h3{
+    margin-bottom: 5px;
+}
+
+.conteudo3 .texto3 h3{
+    margin-bottom: 5px;
+}
+
+.conteudo1 .texto1{
+    width: 400px;
+    height: 300px;
+    padding: 15px;
+    font-family: lato;
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.conteudo2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+    left: 5px;
+}
+
+.conteudo2 .foto2 img{
+    width: 400px;
+    height: 300px;
+    margin-left: 10px;
+    
+}
+
+.conteudo2 .texto2{
+    width: 400px;
+    height: 300px;
+    padding: 15px;
+    font-family: lato;
+    text-align: justify;
+    
+}
+
+.conteudo3{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    left: 5px;
+}
+
+.conteudo3 .foto3 img{
+    width: 400px;
+    height: 300px;    
+}
+
+.conteudo3 .texto3{
+    width: 400px;
+    height: 300px;
+    padding: 15px;
+    font-family: lato;
+    text-align: justify;
+    
+    margin-left: 10px;
+}
+
+.baixar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.baixar img{ 
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.baixar #apple{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.baixar #google{
+    margin-bottom: 20px;
+}
+
+.baixar a{
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #000;
+    padding: 15px;
+    font-family: lato;
+    font-size: 15px;
+}
+
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media (max-width:890px){
+    .conteudo1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .conteudo1 p{
+        margin-top: 10px;
+    }
+
+    .conteudo2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .conteudo3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width:530px){
+    .conteudo1 .foto1 img{
+        max-width: 300px;
+    }
+
+    .conteudo1 .texto1{
+        max-width: 300px;
+    }
+    .conteudo2 .foto2 img{
+        max-width: 300px;
+        margin-top: 40px;
+        height: 200px;
+    }
+
+    .conteudo2 .texto2{
+        max-width: 300px;
+    }
+    .conteudo3 .foto3 img{
+        max-width: 300px;
+        margin-top: 40px;
+    }
+
+    .conteudo3 .texto3{
+        max-width: 300px;
+    }
+}
+
+
